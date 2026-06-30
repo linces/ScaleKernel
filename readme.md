@@ -60,29 +60,44 @@ The current framework is based on several core concepts.
 ## Repository Structure
 
 ```text
-README.md
-MANIFESTO.md
-
-docs/
-├── 01_SCALE_KERNEL.md
-├── 02_AXIOMS.md
-├── 03_CORE_MECHANISM.md
-├── 04_INFORMATION.md
-├── 05_MULTI_SCALE.md
-├── 06_APPLICATIONS.md
-├── 07_OPEN_QUESTIONS.md
-├── 08_RESEARCH_ROADMAP.md
-├── 09_GLOSSARY.md
-└── 10_REFERENCES.md
-
-diagrams/
-
-papers/
-
-CHANGELOG.md
-CONTRIBUTING.md
-LICENSE
+scale-kernel/
+│
+├── README.md
+├── MANIFESTO.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── LICENSE
+│
+├── docs/
+│   ├── 01_SCALE_KERNEL.md
+│   ├── 02_AXIOMS.md
+│   ├── 03_CORE_MECHANISM.md
+│   ├── 04_INFORMATION.md
+│   ├── 05_SCALE.md
+│   ├── 06_MULTI_SCALE.md
+│   ├── 07_APPLICATIONS.md
+│   ├── 08_OPEN_QUESTIONS.md
+│   ├── 09_DESIGN_PRINCIPLES.md
+│   ├── 10_RESEARCH_ROADMAP.md
+│   ├── 11_GLOSSARY.md
+│   └── 12_REFERENCES.md
+│
+├── diagrams/
+│   ├── causality-cycle.mmd
+│   ├── information-flow.mmd
+│   ├── kernel-specialization.mmd
+│   ├── multi-scale.mmd
+│   └── scale-transition.mmd
+│
+├── papers/
+│   ├── Scale_Kernel_v0.1.pdf
+│   └── Scale_Kernel_v0.1.md
+│
+└── assets/
+    ├── logo/
+    └── images/
 ```
+
 
 ---
 
