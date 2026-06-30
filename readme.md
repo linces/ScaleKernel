@@ -82,20 +82,55 @@ scale-kernel/
 │   ├── 11_GLOSSARY.md
 │   └── 12_REFERENCES.md
 │
+├── simulation/
+│   ├── README.md
+│   ├── engine.py
+│   ├── agents.py
+│   ├── constraints.py
+│   ├── metrics.py
+│   ├── visualization.py
+│   ├── scenarios.py
+│   └── examples/
+│       ├── minimal_network.py
+│       ├── adaptive_feedback.py
+│       ├── dynamic_constraints.py
+│       ├── ai_agents.py
+│       ├── social_system.py
+│       ├── swarm_system.py
+│       ├── ecosystem.py
+│       └── economic_system.py
+│
 ├── diagrams/
-│   ├── causality-cycle.mmd
+│   ├── kernel-overview.mmd
+│   ├── axioms.mmd
+│   ├── core-mechanism.mmd
 │   ├── information-flow.mmd
+│   ├── scale-transition.mmd
 │   ├── kernel-specialization.mmd
-│   ├── multi-scale.mmd
-│   └── scale-transition.mmd
+│   ├── multi-scale-architecture.mmd
+│   └── simulation-engine.mmd
 │
 ├── papers/
+│   ├── Scale_Kernel_v0.1.md
 │   ├── Scale_Kernel_v0.1.pdf
-│   └── Scale_Kernel_v0.1.md
+│   └── future/
 │
-└── assets/
-    ├── logo/
-    └── images/
+├── experiments/
+│   ├── README.md
+│   ├── notes/
+│   ├── datasets/
+│   ├── results/
+│   └── prototypes/
+│
+├── assets/
+│   ├── logo/
+│   ├── banners/
+│   └── images/
+│
+└── tools/
+    ├── visualization/
+    ├── exporters/
+    └── utilities/
 ```
 
 
