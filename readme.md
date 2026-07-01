@@ -526,4 +526,263 @@ Scale Kernel is **not**:
 
 Instead, it is an open conceptual research framework intended to stimulate interdisciplinary investigation.
 ````
+---
 
+# Research Roadmap
+
+Scale Kernel is expected to evolve incrementally.
+
+The current roadmap is organized into conceptual milestones rather than software releases.
+
+## Phase 1 — Conceptual Foundation ✅
+
+- Core hypothesis
+- Initial conceptual model
+- Fundamental architecture
+- First axioms
+- Repository organization
+
+Status: Completed
+
+---
+
+## Phase 2 — Conceptual Consolidation 🚧
+
+Current work focuses on refining and compressing the theoretical foundation.
+
+Topics include:
+
+- refinement of the conceptual kernel;
+- definition of elegance as an architectural property;
+- structural stability;
+- constraints and specialization;
+- information versus transformation;
+- conceptual consistency across scales.
+
+Status: In Progress
+
+---
+
+## Phase 3 — Computational Models
+
+Planned objectives:
+
+- richer simulations;
+- multiple reference implementations;
+- comparative experiments;
+- quantitative metrics;
+- visualization tools.
+
+Status: Planned
+
+---
+
+## Phase 4 — Cross-Domain Validation
+
+Future work may investigate the applicability of Scale Kernel concepts to:
+
+- software engineering;
+- artificial intelligence;
+- biology;
+- economics;
+- organizational systems;
+- complex adaptive systems;
+- information theory.
+
+Status: Planned
+
+---
+
+## Phase 5 — Academic Publication
+
+Future goals include:
+
+- technical papers;
+- conference submissions;
+- collaborative research;
+- external peer review;
+- open scientific discussion.
+
+Status: Future
+
+---
+
+# Current Open Questions
+
+The project intentionally maintains a list of unresolved questions.
+
+These questions represent active areas of investigation rather than shortcomings.
+
+Current examples include:
+
+- What is the minimum conceptual kernel?
+- What exactly is information?
+- Is information fundamental or emergent?
+- Is transformation more fundamental than both energy and information?
+- Can elegance be formally characterized?
+- Which properties are necessary for elegance?
+- Can elegance be measured?
+- Does every adaptive system share the same conceptual kernel?
+- Is there a universal specialization mechanism?
+- Is knowledge fundamentally open-ended?
+- Why do deeper answers tend to generate deeper questions?
+- Is there a final explanatory level?
+
+New questions are expected to emerge continuously as the framework evolves.
+
+---
+
+# Current Status
+
+Current version:
+
+```
+Scale Kernel v0.2
+```
+
+Current maturity:
+
+```
+Conceptual Research Framework
+```
+
+Current repository status:
+
+```
+Under Active Development
+```
+
+Current implementation:
+
+```
+Python Reference Implementation
+```
+
+Research philosophy:
+
+```
+Refactor before expanding.
+Compress before adding.
+Question before concluding.
+```
+
+---
+
+# Contributing
+
+Contributions are welcome.
+
+Because Scale Kernel is a conceptual research project, contributions are expected to prioritize:
+
+- conceptual clarity;
+- logical consistency;
+- architectural simplicity;
+- interdisciplinary thinking;
+- constructive criticism.
+
+Well-founded disagreement is considered an important part of the research process.
+
+Ideas that improve the conceptual model are encouraged regardless of their origin.
+
+---
+
+# Citation
+
+Until formal publication becomes available, the preferred citation is:
+
+```text
+Marques, Linces.
+
+Scale Kernel:
+A Conceptual Framework for Multi-Scale Adaptive Systems.
+
+Research Draft.
+GitHub Repository.
+```
+
+Citation details may evolve as the project matures.
+
+---
+
+# Versioning Philosophy
+
+Software versions describe implementation maturity.
+
+Scale Kernel versions describe conceptual maturity.
+
+This distinction is intentional.
+
+A new version should represent an improvement in the conceptual model rather than merely additional documentation.
+
+---
+
+# Repository Principles
+
+This repository follows several long-term principles.
+
+- Openness
+- Transparency
+- Continuous refinement
+- Conceptual compression
+- Cross-domain applicability
+- Architectural elegance
+- Structural consistency
+- Scientific curiosity
+- Intellectual honesty
+
+---
+
+# Acknowledgements
+
+Scale Kernel emerged from hundreds of hours of discussions involving:
+
+- software architecture;
+- distributed systems;
+- artificial intelligence;
+- systems thinking;
+- philosophy of science;
+- information theory;
+- adaptive systems.
+
+The framework continues to evolve through iterative refinement rather than isolated inspiration.
+
+---
+
+# Author
+
+**Linces Marques**
+
+Software Architect, Delphi Developer, Systems Designer and Independent Researcher.
+
+More than three decades dedicated to software engineering, systems architecture and conceptual modeling.
+
+Scale Kernel represents an ongoing effort to identify invariant architectural principles shared by adaptive systems across multiple scales.
+
+---
+
+# License
+
+This project is distributed under the MIT License unless otherwise specified.
+
+See the `LICENSE` file for details.
+
+---
+
+# Final Remarks
+
+Scale Kernel is not presented as a finished theory.
+
+It is presented as an evolving research program.
+
+The objective is not to accumulate concepts.
+
+The objective is to progressively compress them into the smallest possible set of principles capable of explaining the largest possible set of phenomena.
+
+If successful, the final framework should become progressively simpler while simultaneously increasing its explanatory power.
+
+In that sense, every new revision is expected to remove unnecessary assumptions, strengthen conceptual consistency, and bring the framework closer to architectural elegance.
+
+---
+
+> **"The best theories are not those that explain everything by adding more ideas. They are those that explain more by needing fewer."**
+````
