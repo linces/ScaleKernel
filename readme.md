@@ -525,7 +525,7 @@ Scale Kernel is **not**:
 - an attempt to replace existing scientific disciplines.
 
 Instead, it is an open conceptual research framework intended to stimulate interdisciplinary investigation.
-````
+
 
 # Research Roadmap
 
