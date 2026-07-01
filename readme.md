@@ -526,7 +526,6 @@ Scale Kernel is **not**:
 
 Instead, it is an open conceptual research framework intended to stimulate interdisciplinary investigation.
 ````
----
 
 # Research Roadmap
 
