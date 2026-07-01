@@ -1,224 +1,274 @@
 # Scale Kernel
 
-> **A Research Program on Multi-Scale Self-Organized Systems**
-
-**Author:** Linces Marques
-**Version:** 0.1.0
-**Status:** 🚧 Conceptual Framework — Work in Progress
+> **A Conceptual Framework for Multi-Scale Adaptive Systems**
+>
+> *A research project exploring the smallest possible set of principles capable of explaining adaptive behavior across different scales.*
 
 ---
 
-## Overview
+## 🚧 Research Status
 
-**Scale Kernel** is an open research program investigating whether complex systems can be described by a small invariant kernel of fundamental principles that remains valid across multiple scales.
+> **Scale Kernel is an active research project.**
 
-Rather than treating software architecture, artificial intelligence, biological systems, social organizations, or conceptual models of reality as unrelated domains, Scale Kernel explores the possibility that they are different manifestations of the same underlying structural kernel.
+This repository presents a conceptual framework currently under continuous development.
 
-The project is intentionally unfinished.
+The ideas described here are **not proposed as established scientific theories**, but as a conceptual model intended to explore whether a single architectural kernel can explain the behavior of adaptive systems across multiple domains.
 
-Its purpose is not to defend conclusions, but to continuously refine a conceptual model through criticism, experimentation, logical consistency, and interdisciplinary discussion.
+Current version:
 
----
-
-## Vision
-
-Scale Kernel seeks the smallest possible set of principles capable of explaining the largest possible set of complex phenomena.
-
-The guiding philosophy is simple:
-
-> **Maximum explanatory power with minimum conceptual complexity.**
-
----
-
-## Current Status
-
-Scale Kernel is currently a **conceptual framework under active development**.
-
-It should **not** be interpreted as an established scientific theory.
-
-Instead, it should be understood as a structured research program whose objective is to investigate whether a unified systems kernel can describe multiple domains while remaining internally consistent.
-
-Many questions intentionally remain open.
-
-Those questions are considered part of the research itself.
-
----
-
-## Fundamental Ideas
-
-The current framework is based on several core concepts.
-
-* Simple local rules generate complex global behavior.
-* Information represents persistent structural state changes.
-* Causality is distributed rather than centralized.
-* Self-regulation emerges naturally from recursive interactions.
-* Complex systems continuously evolve through feedback.
-* Different domains may represent specialized expressions of the same underlying kernel.
-
----
-
-## Repository Structure
-
-```text
-scale-kernel/
-│
-├── README.md
-├── MANIFESTO.md
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── LICENSE
-│
-├── docs/
-│   ├── 01_SCALE_KERNEL.md
-│   ├── 02_AXIOMS.md
-│   ├── 03_CORE_MECHANISM.md
-│   ├── 04_INFORMATION.md
-│   ├── 05_SCALE.md
-│   ├── 06_MULTI_SCALE.md
-│   ├── 07_APPLICATIONS.md
-│   ├── 08_OPEN_QUESTIONS.md
-│   ├── 09_DESIGN_PRINCIPLES.md
-│   ├── 10_RESEARCH_ROADMAP.md
-│   ├── 11_GLOSSARY.md
-│   └── 12_REFERENCES.md
-│
-├── simulation/
-│   ├── README.md
-│   ├── engine.py
-│   ├── agents.py
-│   ├── constraints.py
-│   ├── metrics.py
-│   ├── visualization.py
-│   ├── scenarios.py
-│   └── examples/
-│       ├── minimal_network.py
-│       ├── adaptive_feedback.py
-│       ├── dynamic_constraints.py
-│       ├── ai_agents.py
-│       ├── social_system.py
-│       ├── swarm_system.py
-│       ├── ecosystem.py
-│       └── economic_system.py
-│
-├── diagrams/
-│   ├── kernel-overview.mmd
-│   ├── axioms.mmd
-│   ├── core-mechanism.mmd
-│   ├── information-flow.mmd
-│   ├── scale-transition.mmd
-│   ├── kernel-specialization.mmd
-│   ├── multi-scale-architecture.mmd
-│   └── simulation-engine.mmd
-│
-├── papers/
-│   ├── Scale_Kernel_v0.1.md
-│   ├── Scale_Kernel_v0.1.pdf
-│   └── future/
-│
-├── experiments/
-│   ├── README.md
-│   ├── notes/
-│   ├── datasets/
-│   ├── results/
-│   └── prototypes/
-│
-├── assets/
-│   ├── logo/
-│   ├── banners/
-│   └── images/
-│
-└── tools/
-    ├── visualization/
-    ├── exporters/
-    └── utilities/
 ```
 
+Version: 0.2 (Research Draft)
+Status : Active Development
+
+```
 
 ---
 
-## Research Roadmap
+# Vision
 
-Current priorities include:
+Throughout science, engineering and mathematics, remarkably different systems often exhibit surprisingly similar behaviors.
 
-* Define the minimal irreducible kernel.
-* Refine the fundamental axioms.
-* Formalize the concept of distributed causality.
-* Improve the definition of information.
-* Identify mathematical representations.
-* Search for counterexamples.
-* Explore applications across multiple domains.
-* Evaluate the predictive power of the framework.
+Software architectures evolve.
 
----
+Biological organisms adapt.
 
-## Project Philosophy
+Economies reorganize themselves.
 
-Scale Kernel follows a simple principle:
+Artificial intelligence learns.
 
-> A model becomes stronger not by accumulating assumptions, but by eliminating unnecessary ones.
+Social systems self-regulate.
 
-Every new principle added to the framework must justify its existence.
+Distributed networks converge.
 
-Whenever possible, complexity should emerge from simplicity.
+Despite their differences, many of these systems appear to follow common structural patterns.
 
----
+Scale Kernel is an attempt to identify those patterns.
 
-## Open Questions
+Rather than studying each domain independently, the project asks a more fundamental question:
 
-Some of the questions currently under investigation include:
+> **What is the smallest possible set of principles capable of explaining adaptive behavior regardless of scale?**
 
-* Can the kernel be reduced even further?
-* Is information fundamental or emergent?
-* Is distributed causality universal?
-* What defines a "scale"?
-* Can the framework generate falsifiable predictions?
-* Which systems invalidate the model?
-* What are the mathematical limits of the framework?
+If such principles exist, they should remain invariant while only their local constraints change.
 
-The purpose of these questions is not to expose weaknesses, but to guide future research.
+This idea forms the foundation of the Scale Kernel research program.
 
 ---
 
-## Contributions
+# Core Hypothesis
 
-Constructive criticism is highly encouraged.
+Scale Kernel proposes that adaptive systems may be understood through the interaction between:
 
-The objective of this project is continuous refinement.
+- an invariant conceptual kernel;
+- local constraints;
+- specialization mechanisms;
+- interactions between agents;
+- information flow;
+- feedback loops;
+- adaptation;
+- continuous evolution.
 
-Contributions may include:
+Different systems would therefore not require completely different explanations.
 
-* Counterexamples
-* Alternative interpretations
-* Mathematical formalizations
-* Experimental validations
-* Logical critiques
-* Improvements to terminology
-* New applications
-
----
-
-## License
-
-This repository is intended to encourage open scientific and technical discussion while preserving proper attribution of the original conceptual framework.
-
-See the **LICENSE** file for details.
+Instead, they could represent different specializations of the same underlying conceptual architecture.
 
 ---
 
-## Citation
+# Design Philosophy
 
-If you reference this work, please cite:
+The project follows a philosophy inspired by both scientific modeling and software engineering.
 
-> Marques, Linces. *Scale Kernel: A Research Program on Multi-Scale Self-Organized Systems.* Version 0.1.0.
+Its objective is **not to maximize complexity**.
+
+Its objective is to maximize explanatory power while minimizing the number of fundamental assumptions.
+
+This philosophy is guided by principles such as:
+
+- conceptual compression;
+- economy of principles;
+- structural coherence;
+- generality;
+- scalability;
+- adaptability;
+- falsifiability whenever possible.
 
 ---
 
-## Author
+# Why "Scale Kernel"?
 
-**Linces Marques**
+The name reflects the central idea of the project.
 
-Software Architect • Systems Designer • Artificial Intelligence Research Enthusiast
+**Kernel**
+
+Represents the invariant conceptual structure.
+
+The kernel should remain unchanged regardless of the system being observed.
+
+**Scale**
+
+Represents the different levels at which that same kernel may manifest itself.
+
+Examples include:
+
+- software systems;
+- artificial intelligence;
+- distributed systems;
+- biological systems;
+- social organizations;
+- economic systems;
+- ecosystems;
+- conceptual models;
+- hypothetical large-scale systems.
+
+The goal is not to force different domains into identical behavior.
+
+Instead, the goal is to identify which structural principles remain invariant while their specialization changes.
 
 ---
 
-> **"The objective is not to explain everything, but to discover the smallest set of principles capable of explaining the greatest number of phenomena."**
+# Fundamental Architecture
+
+The current conceptual architecture is summarized as:
+
+```
+
+Kernel
+↓
+Constraints
+↓
+Specialization
+↓
+Interactions
+↓
+Transformation
+↓
+Information
+↓
+Feedback
+↓
+Adaptation
+↓
+Evolution
+
+```
+
+Each layer introduces specialization without changing the underlying kernel.
+
+---
+
+# Current Conceptual Principles
+
+The current research is centered around several recurring ideas.
+
+## Invariant Kernel
+
+A minimal conceptual structure capable of remaining valid across multiple domains.
+
+---
+
+## Constraints
+
+Local rules that shape how the kernel manifests itself.
+
+Different constraints generate different observable systems.
+
+---
+
+## Specialization
+
+Observable systems are viewed as specialized expressions of the same conceptual kernel.
+
+Specialization explains diversity without requiring independent fundamental theories.
+
+---
+
+## Information
+
+Information represents one of the central concepts of the framework.
+
+The project currently investigates whether information is:
+
+- fundamental;
+- emergent;
+- conserved;
+- transformed;
+- or simply another observable aspect of a deeper process.
+
+This question remains intentionally open.
+
+---
+
+## Transformation
+
+Recent iterations of the research suggest that transformation itself may be more fundamental than both information and energy.
+
+This hypothesis is still under investigation.
+
+---
+
+## Feedback
+
+Feedback enables self-regulation.
+
+Adaptive systems continuously modify themselves according to their own outputs.
+
+---
+
+## Adaptation
+
+Adaptation emerges naturally from repeated interaction under changing constraints.
+
+---
+
+## Evolution
+
+Evolution is viewed as the long-term consequence of continuous adaptation rather than as an isolated mechanism.
+
+---
+
+# Elegance as an Architectural Property
+
+One recurring concept throughout the project is **elegance**.
+
+Scale Kernel does not treat elegance as an aesthetic characteristic.
+
+Instead, elegance is considered an emergent architectural property resulting from the interaction of multiple structural characteristics.
+
+Current research suggests that elegance may involve combinations of:
+
+- simplicity;
+- structural stability;
+- efficiency;
+- conceptual coherence;
+- logical consistency;
+- economy of principles;
+- adaptability;
+- low coupling;
+- high cohesion;
+- explanatory power.
+
+The exact composition of elegance remains an active area of research.
+
+---
+
+# Scope
+
+Scale Kernel is intentionally interdisciplinary.
+
+Its concepts are intended to be explored across multiple areas, including:
+
+- Software Engineering
+- Artificial Intelligence
+- Complex Systems
+- Distributed Computing
+- Systems Theory
+- Organizational Design
+- Biology
+- Economics
+- Philosophy of Science
+- Information Theory
+
+The project does not claim that these domains are identical.
+
+It investigates whether they may share invariant conceptual structures.
+```
