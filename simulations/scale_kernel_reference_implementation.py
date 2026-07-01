@@ -200,4 +200,4 @@ if __name__ == "__main__":
     # Roda as duas versões para comparar a diferença que o Feedback dinâmico faz
     run_simulation(steps=40, feedback=True)
     print("\n")
-    run_simulation(steps=40, feedback=False)
+    run_simulation(steps=40, feedback=False) 
