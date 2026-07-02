@@ -1,6 +1,6 @@
 # Scale Kernel
 
-# 06 — Information
+# 06 — Information and Transformation
 
 **Version:** 1.0
 
