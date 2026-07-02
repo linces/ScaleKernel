@@ -1,6 +1,6 @@
 # Scale Kernel — Axioms
 
-## Version 0.2 (Research Draft)
+## Version 1.0 (Research Draft)
 
 ---
 
