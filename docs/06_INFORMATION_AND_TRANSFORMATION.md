@@ -1,6 +1,6 @@
 # Scale Kernel
 
-# 08 — Information
+# 06 — Information
 
 **Version:** 1.0
 
