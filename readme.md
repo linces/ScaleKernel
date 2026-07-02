@@ -1,4 +1,3 @@
-````markdown
 # Scale Kernel
 
 > **One Kernel. Infinite Specializations.**
@@ -15,9 +14,7 @@
 
 Rather than proposing another isolated theory, Scale Kernel seeks the smallest possible set of invariant principles capable of explaining adaptive behavior across multiple scales.
 
-The framework is intentionally interdisciplinary.
-
-It explores common architectural patterns found in:
+The framework is intentionally interdisciplinary. It explores common architectural patterns found in:
 
 - Software Engineering
 - Artificial Intelligence
@@ -30,60 +27,37 @@ It explores common architectural patterns found in:
 
 ---
 
-# Project Status
-
-**Status:** Active Research
-
-Scale Kernel is currently an evolving conceptual framework.
-
-This repository documents both the current state of the theory and the reasoning process that continuously refines it.
-
-Nothing here should be interpreted as finished science.
-
-The project explicitly distinguishes:
-
-- Observations
-- Interpretations
-- Hypotheses
-- Speculations
-
-Scientific honesty is one of the project's core principles.
-
----
-
-# Vision
+## Project Vision & Philosophy
 
 The long-term objective of Scale Kernel is simple:
 
 > Discover the smallest invariant conceptual architecture capable of explaining adaptive systems across different domains without depending on domain-specific implementations.
 
-The project values compression over accumulation.
+The project values **conceptual compression over accumulation**. Progress is measured by explaining more with fewer concepts, promoting elegance through simplicity, high cohesion, low coupling, structural stability, and cross-scale invariance.
 
-Progress is measured by explaining more with fewer concepts.
+This repository/documentation is itself modeled as an adaptive system following these exact principles:
+- Invariant kernel
+- Specialization
+- Feedback
+- Adaptation
+- Structural stability
+- Continuous evolution
 
 ---
 
-# Core Idea
+## Core Idea & Conceptual Architecture
 
-Every adaptive system appears different.
-
-However, those differences may arise not because different kernels exist, but because identical kernels become specialized under different constraints.
+Every adaptive system appears different. However, those differences may arise not because different kernels exist, but because identical kernels become specialized under different constraints.
 
 Conceptually:
 
 ```text
 Invariant Kernel
-
-↓
-
-Constraints
-
-↓
-
-Specialization
-
-↓
-
+      ↓
+  Constraints
+      ↓
+ Specialization
+      ↓
 Observable System
 ```
 
@@ -91,27 +65,49 @@ If this hypothesis proves useful, radically different systems may eventually be 
 
 ---
 
-# Guiding Principles
+## Guiding Principles
 
-Scale Kernel is built upon a small number of engineering and scientific principles.
+Scale Kernel is built upon a small number of engineering and scientific principles:
 
-- Architecture before implementation
-- Refactor before expand
-- Conceptual compression
-- Structural stability
-- Low coupling
-- High cohesion
-- Cross-scale invariance
-- Scientific honesty
-- Continuous refinement
-- Elegance through simplicity
-
-These principles govern both the theory and the repository itself.
+- **Architecture before implementation:** Focus on design invariant rules before writing code.
+- **Conceptual compression & Refactoring:** Explain more with less; refactor before expanding.
+- **Structural stability & Invariance:** High cohesion, low coupling, and scale-independent principles.
+- **Scientific honesty & Continuous refinement:** Explicitly distinguish observations, interpretations, hypotheses, and speculations.
 
 ---
 
-# Repository Structure
+## Current Research Status
 
+**Status:** Active Research (evolving conceptual framework).
+
+The framework has already established:
+- A canonical governance model.
+- A Single Source of Truth (SSOT).
+- A formal conceptual architecture and first set of invariant axioms.
+- An adaptive execution model.
+- A research methodology & initial computational experiments.
+- A documentation architecture based on the framework itself.
+
+### Active Topics Under Investigation
+- Information as a functional property and its relation to energy.
+- Transformation as a possible primitive (is it more fundamental than information?).
+- Structural stability, emergent elegance, and self-regulating systems.
+- Matrix Hypothesis (conceptual exploration).
+- Epistemology: whether questions themselves are a self-propagating adaptive process and if knowledge evolves under these same principles.
+
+### Current Research Questions (Open Questions)
+- Can every adaptive system be reduced to the same conceptual kernel?
+- Is transformation more fundamental than information? Is information conserved?
+- Does energy emerge from transformation?
+- Can elegance be objectively measured? Is structural stability a necessary condition for elegance?
+- What is the smallest possible invariant kernel?
+- Can specialization alone explain all observed diversity?
+
+---
+
+## Repository Structure & Documentation Layers
+
+### Structure
 ```text
 ScaleKernel/
 │
@@ -122,227 +118,121 @@ ScaleKernel/
 ├── CODE_OF_CONDUCT.md
 │
 ├── assets/
-│   ├── banner/
-│   ├── logo/
-│   ├── icons/
-│   ├── screenshots/
-│   └── social/
+│   ├── banner/ | logo/ | icons/ | screenshots/ | social/
 │
 ├── docs/
-│   ├── 00_PROJECT_GOVERNANCE.md
-│   ├── 01_SINGLE_SOURCE_OF_TRUTH.md
-│   ├── 02_MANIFESTO.md
-│   ├── 03_SCALE_KERNEL.md
-│   ├── 04_AXIOMS.md
-│   ├── 05_CORE_MECHANISM.md
-│   ├── 06_INFORMATION_AND_TRANSFORMATION.md
-│   ├── 07_SCALE.md
-│   ├── 08_SPECIALIZATION.md
-│   ├── 09_APPLICATIONS.md
-│   ├── 10_OPEN_QUESTIONS.md
-│   ├── 11_DESIGN_PRINCIPLES.md
-│   ├── 12_RESEARCH_ROADMAP.md
-│   ├── 13_GLOSSARY.md
-│   └── 14_REFERENCES.md
+│   ├── 00_PROJECT_GOVERNANCE.md (Rules governing conceptual changes)
+│   ├── 01_SINGLE_SOURCE_OF_TRUTH.md (Canonical definitions & core concepts)
+│   ├── 02_MANIFESTO.md (Philosophy, motivation, and long-term vision)
+│   ├── 03_SCALE_KERNEL.md (Primary conceptual document)
+│   ├── 04_AXIOMS.md (Formalized invariant principles)
+│   ├── 05_CORE_MECHANISM.md (Adaptive execution model)
+│   ├── 06_INFORMATION_AND_TRANSFORMATION.md (Transformation, info, and energy relations)
+│   ├── 07_SCALE.md (Manifestation across scales)
+│   ├── 08_SPECIALIZATION.md (How constraints generate diversity)
+│   ├── 09_APPLICATIONS.md (Practical applications across domains)
+│   ├── 10_OPEN_QUESTIONS.md (Current frontier of research)
+│   ├── 11_DESIGN_PRINCIPLES.md (Engineering guidelines)
+│   ├── 12_RESEARCH_ROADMAP.md (Future milestones)
+│   ├── 13_GLOSSARY.md (Canonical terminology)
+│   └── 14_REFERENCES.md (Scientific references and inspirations)
 │
 ├── architecture/
 │   ├── DOCUMENTATION_ARCHITECTURE.md
 │   ├── DEPENDENCY_GRAPH.md
 │   └── DECISION_RECORDS.md
 │
-├── diagrams/
-│   ├── conceptual_kernel.drawio
-│   ├── core_mechanism.drawio
-│   ├── information_and_transformation.drawio
-│   ├── scale_model.drawio
-│   ├── specialization_model.drawio
-│   ├── documentation_architecture.drawio
-│   └── images/
+├── diagrams/ (conceptual_kernel, core_mechanism, specialization_model, etc.)
 │
 ├── experiments/
-│   ├── scalekernel_simulation.py
-│   ├── validation/
-│   ├── notebooks/
-│   └── results/
+│   ├── scalekernel_simulation.py (Python reference implementation)
+│   ├── validation/ | notebooks/ | results/
 │
-├── examples/
-│   ├── software/
-│   ├── artificial_intelligence/
-│   ├── biology/
-│   ├── organizations/
-│   ├── economics/
-│   ├── knowledge/
-│   └── matrix_hypothesis/
+├── examples/ (software, AI, biology, organizations, economics, knowledge, matrix)
 │
-└── papers/
-    ├── drafts/
-    ├── submissions/
-    └── published/
+└── papers/ (drafts, submissions, published)
 ```
 
----
+### Documentation Layers
+1. **Layer 1 — Governance:** Defines how the project evolves (`00_PROJECT_GOVERNANCE.md`).
+2. **Layer 2 — Canonical Knowledge:** Invariant conceptual foundation (`01_SINGLE_SOURCE_OF_TRUTH.md`, `02_MANIFESTO.md`).
+3. **Layer 3 — Theory:** Framework specification (`03_SCALE_KERNEL.md` to `08_SPECIALIZATION.md`).
+4. **Layer 4 — Evolution:** Applications, roadmap, glossary, references (`09_APPLICATIONS.md` to `14_REFERENCES.md`).
 
-# Documentation Layers
-
-The repository is intentionally organized into four architectural layers.
-
-## Layer 1 — Governance
-
-Defines how the project evolves.
-
-- Project Governance
+#### Recommended Reading Order:
+1. README → 2. Project Governance → 3. Single Source of Truth → 4. Manifesto → 5. Scale Kernel → 6. Axioms → 7. Core Mechanism → 8. Information and Transformation → 9. Scale → 10. Specialization → 11. Applications → 12. Open Questions → 13. Design Principles → 14. Research Roadmap → 15. Glossary → 16. References.
 
 ---
 
-## Layer 2 — Canonical Knowledge
+## Computational Simulations & Reference Implementations
 
-Defines the project's invariant conceptual foundation.
+The repository includes experimental implementations to explore the conceptual behavior proposed by the framework.
 
-- Single Source of Truth
-- Manifesto
+### Python Reference Simulation
+Located at `experiments/scalekernel_simulation.py`, the simulation explores:
+- Local interactions and distributed causality.
+- Adaptive memory, feedback regulation, and dynamic activation thresholds.
+- Information propagation, emergent stability, and entropy measurements.
 
----
-
-## Layer 3 — Theory
-
-Defines the Scale Kernel framework.
-
-- Scale Kernel
-- Axioms
-- Core Mechanism
-- Information and Transformation
-- Scale
-- Specialization
+### Future Experimental Directions
+- Competitive specialization and adaptive constraints.
+- Multi-kernel simulations, GPU acceleration, and swarm intelligence.
+- Distributed learning and network topology comparison.
 
 ---
 
-## Layer 4 — Evolution
+## Examples & Future Domains
 
-Defines how the framework grows over time.
-
-- Applications
-- Open Questions
-- Design Principles
-- Research Roadmap
-- Glossary
-- References
+Scale Kernel explores multiple domains to map invariants:
+- **Current Domains:** Software Architecture, Artificial Intelligence, Biological Systems, Organizations, Economic Systems, Knowledge Systems, and Conceptual Matrix Models.
+- **Future Domains:** Neuroscience, Ecology, Distributed Robotics, Evolutionary Computation, Social Networks, Education, and Physics.
 
 ---
 
-# Recommended Reading Order
+## Papers & Publications
 
-For readers encountering Scale Kernel for the first time, the following order is recommended:
-
-1. README
-2. Project Governance
-3. Single Source of Truth
-4. Manifesto
-5. Scale Kernel
-6. Axioms
-7. Core Mechanism
-8. Information and Transformation
-9. Scale
-10. Specialization
-11. Applications
-12. Open Questions
-13. Design Principles
-14. Research Roadmap
-15. Glossary
-16. References
-
-Following this order allows the reader to understand the project from governance to implementation while preserving conceptual dependencies.
+Scientific publications are organized separately in the `papers/` directory (under `drafts/`, `submissions/`, and `published/`) to preserve a clear distinction between the evolving research platform and peer-reviewed publications derived from it.
 
 ---
 
-# Documentation Overview
+## Contributing
 
-## 00_PROJECT_GOVERNANCE.md
+Contributions are welcome. However, conceptual consistency always takes precedence over feature accumulation. Before proposing new concepts, ask:
+- Can this be explained using existing concepts?
+- Does this reduce conceptual complexity and increase explanatory power?
+- Does it preserve architectural consistency and scale-invariance?
 
-Defines how the project evolves and establishes the rules governing conceptual changes.
-
----
-
-## 01_SINGLE_SOURCE_OF_TRUTH.md
-
-The canonical repository of definitions.
-
-Every core concept originates here.
+Every contribution should strengthen the framework rather than increase its complexity.
 
 ---
 
-## 02_MANIFESTO.md
+## Citation & Licensing
 
-Describes the philosophy, motivation and long-term vision of Scale Kernel.
+### Citation
+Until a formal publication is available, please cite the repository directly:
+```text
+Marques, Linces.
+Scale Kernel.
+Conceptual Research Platform.
+GitHub Repository.
+Work in Progress.
+```
 
----
-
-## 03_SCALE_KERNEL.md
-
-The primary conceptual document describing the framework.
-
----
-
-## 04_AXIOMS.md
-
-Formalizes the invariant principles upon which the framework is built.
-
----
-
-## 05_CORE_MECHANISM.md
-
-Describes the adaptive execution model shared across every specialization.
+### License
+Unless otherwise specified, this project is licensed under the MIT License.
 
 ---
 
-## 06_INFORMATION_AND_TRANSFORMATION.md
+## Author & Acknowledgements
 
-Explores the relationships among transformation, information, energy and adaptive behavior.
+### Author
+**Linces Marques**
+*Software Architect | Researcher | Delphi Developer | Systems Engineer*
+Founder of the Scale Kernel project.
 
----
-
-## 07_SCALE.md
-
-Demonstrates how identical principles manifest across different scales.
-
----
-
-## 08_SPECIALIZATION.md
-
-Explains how constraints generate diversity without changing the Kernel.
+### Acknowledgements
+Scale Kernel emerged through an extended process of iterative discussions, architectural reasoning, and conceptual refinement. Rather than seeking immediate conclusions, the project embraces continuous questioning as a mechanism for deeper understanding. Every refinement, correction, and critical discussion contributes to the long-term evolution of the framework.
 
 ---
 
-## 09_APPLICATIONS.md
-
-Presents practical applications of the framework across multiple domains.
-
----
-
-## 10_OPEN_QUESTIONS.md
-
-Documents the current frontier of research and unresolved questions.
-
----
-
-## 11_DESIGN_PRINCIPLES.md
-
-Describes the engineering principles guiding both the framework and its implementation.
-
----
-
-## 12_RESEARCH_ROADMAP.md
-
-Defines future research directions and planned milestones.
-
----
-
-## 13_GLOSSARY.md
-
-Provides canonical terminology.
-
----
-
-## 14_REFERENCES.md
-
-Collects scientific references, inspirations and related work.
-````
+> **Everything changes. The Kernel remains.**
